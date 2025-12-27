@@ -104,7 +104,7 @@ export const ChaosMonitor: React.FC<ChaosMonitorProps> = ({ gameState }) => {
             </div>
             {isReady && (
               <div className="text-[10px] text-cyan-300 font-mono mt-1 tracking-widest animate-pulse">
-                阈值已突破 >> 寻找异常
+                阈值已突破 {'>>'} 寻找异常
               </div>
             )}
           </div>
